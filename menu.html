@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Food<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#banner"a>Home</a></li>
+            <li><a href="#about"a>About</a></li>
+            <li><a href="#menu"a>Menu</a></li>
+            <li><a href="#expert"a>Expert</a></li>
+            <li><a href="#testimonials"a>Testimonials</a></li>
+            <li><a href="#contact"a>Contact</a></li>
+        </ul>
+    </header>
+
+
+
+    <section class="menu" id="menu">
+        <div><img src="" alt=""></div>
+        <div class="title">
+            <h2 class="titleText">Our <span>M</span>enu</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>   
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="menu1.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Salads</h3>
+                </div>
+            </div>
+
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="menu2.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Special Soup</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="menu3.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Special Pasta</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="menu4.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Special Salads</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="menu5.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Special Soup</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="menu6.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Special Pasta</h3>
+                    </div>
+                </div>
+        
+        </div>
+
+        <div class="title">
+            <a href="#" class="btn" id="menu">Viev All</a>  
+        </div>
+    </section>
+    
+
+    <script type="text/javascript">
+    window.addEventListener('scroll', function(){
+        const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+    });
+    
+    </script>
+</body>
+</html>
